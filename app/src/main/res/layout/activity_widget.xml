@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_widget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.widget.kang.widgets.widgetActivity">
+
+    <Button
+        android:text="Calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cal" />
+
+    <Button
+        android:text="GRID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGrid" />
+</LinearLayout>
